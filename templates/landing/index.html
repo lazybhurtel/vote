@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body" >
+       <h1> Welcome,Please Cast your vote:😊!</h1>
+    <p>This is Our project-I for 4th semester
+         </p>
+    <a class="btn btn-dark" href = "{% url 'polls:index' %}">
+        View Available Polls! </a>
+    </div>
+</div>
+{% endblock %}
